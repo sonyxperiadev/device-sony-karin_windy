@@ -38,6 +38,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.karin_windy
 
+# NFC config
+PRODUCT_PACKAGES += \
+    nfc_nci.pn54x.default
+
 PRODUCT_NAME := aosp_sgp712
 PRODUCT_DEVICE := karin_windy
 PRODUCT_MODEL := Xperia Z4 Tablet WiFi(AOSP)
