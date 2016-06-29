@@ -14,4 +14,6 @@
 
 include device/sony/kitakami/PlatformConfig.mk
 
+NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
+
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/maxim_sti/gesture_wakeup"
