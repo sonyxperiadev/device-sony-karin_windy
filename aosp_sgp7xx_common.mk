@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
 
 # Thermal Configration
 PRODUCT_COPY_FILES += \
-    $(BOARD_COMMON_PATH)/rootdir/vendor/etc/thermanager.xml:vendor/etc/thermanager.xml
+    $(BOARD_COMMON_PATH)/rootdir/vendor/etc/thermanager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/thermanager.xml
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.freeform_window_management.xml:system/etc/permissions/android.software.freeform_window_management.xml
